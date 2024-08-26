@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for ="nome_id"> Qual seria seu nome, meu amor?</label>
+        <input type = "text" name = "nome" id = "nome_id"
+         placeholder = "Diga para Moi!">
+
+
+        <label for = "busca_id">  Busca: </label>
+         <input type = "search" name ="busca" id ="busca_id">
+        
+        
+         <label for = "idade_dos_mano_id"> E quantos anos tienes, meo amore?</label>
+        <input type = "number" name = "idade" id = "idade_dos_mano_id"
+        placeholder="Eu gosto dos mais velhos" min = "25" max ="200" step = "2"><!----Step means that it only increases by this set amount-->
+        
+        
+        <label for = "qt_id"> Quanto você ganha?!</label>
+        <input type = "range" name = "  quantidade" id = "qt_id" placeholder=" Quanto você ganha?"
+        min = "10">
+        
+        
+        <label for = "email_id"> OK OK, Qual seu email?</label>
+        <input type="email" name="email" id ="email_id">
+        
+        <label for = "datahora_id"> Quando posso te ver?</label>
+        <input type = "datetime-local" name=" datahota" id = "datahora_id">
+
+        <label for = "text_id"> Boy, tell me about you!</label>
+        <textarea id="text_id" name = "texto" rows = "8" collums = "50" maxlength="200">
+
+        </textarea><br><br>
+
+        <label for = "cor_id"> Cor de seus lindos cabelos:</label>
+        <input type ="color" name ="cor" id="cor_id">
+        
+        <label = "estado_id"> Charles romeu?</label>
+        <select id = "estado_id" name = "estado" >
+            <option value = "Mk"> Micheal</option>
+            <option value = "Josh"> Joshua</option>
+
+            <label = "estado_id"> Charles romeu?</label>
+        <select id = "estado_id" name = "estado" multiple>
+            <option value = "Mk"> Micheal</option>
+            <option value = "Josh"> Joshua</option>
+        </select>
+
+        <label = "estado_id"> Charles romeu?</label>
+        <select id = "estado_id" name = "estado" >
+            <optgroup label = "homens"> <option value = "Mk"> Micheal</option>
+                <option value = "Josh"> Joshua</option></optgroup>
+        
+        </select>
+        </select><br><br>
+
+        <datalist id = "comidas_id"> 
+            <option value = "Lasagna"> </option>
+            <option value = "Soupe"></option>
+            <option value = "pasta"></option>
+        </datalist>
+        <label for = "comidas_id"> Eat</label>
+        <input type = "text" name = "comida" id="comidas_id" list = "comidas_id">
+        <br><br>
+        
+        <label = "opcaosim_id"> sim </label>
+        <input type = "radio" id = "opcaosim_id" value = "sim" name = "resposta">
+        <label = "opcaotal_id"> talvez </label>
+        <input type = "radio" id = "opcaotal_id" value = "talvez" name = "resposta">
+        <label = "opcaonao_id"> nao </label>
+        <input type = "radio" id = "opcaonao_id" value = "nao" name = "resposta">
+
+
+
+    </form>
+</body>
+</html>
